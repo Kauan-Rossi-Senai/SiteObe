@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --fontTitle: "Bebas Neue", cursive;
+    --fontePadrao: "Open Sans", sans-serif;
+    --cinza: #a8a5a5;
+    --azulClaro: #06c1f5;
+}
+
+
+body {
+    font-family: var(--fontePadrao);
+    margin: 20px;
+    background: white;
+    color: black;
+}
+
+div {
+    text-align: center;
+}
+
+h1{
+    font-family: var(--fontTitle);
+}
+
+h2 {
+    font-family: var(--fontTitle);
+    margin-top: 40px;
+    color: black;
+}
+
+table {
+    margin: 20px auto;
+    width: 60%;
+    border-collapse: collapse;
+    background: white;
+    color: black;
+}
+
+th, td {
+    border: 1px solid var(--azulClaro);
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: var(--azulClaro);
+}
